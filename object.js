@@ -40,6 +40,18 @@ const badPersonAmount = richPerson.bill.apply(badPerson, [100000, 50000])
 console.log(badPersonAmount);
 
 
+// we can make more then object using class for similar tpe object
+// new keyword: usd when want we make new object
+class Persons{
+    constructor(one, tow, three){
+        this.firstName = one;
+        this.lastName = tow;
+        this.salary = three;
+    }
+}
+console.log(new Persons("Abdul", "Hakim", 10000));
+console.log(new Persons("Abdul", "Alim", 5000));
+
 
 
 
